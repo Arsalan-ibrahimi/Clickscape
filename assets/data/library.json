@@ -1,0 +1,554 @@
+ {
+    "library": [
+        {
+            "dialLink" : "https://www.google.com",
+            "dialName" : "Google",
+            "category" : "dev",
+            "description" : "Search engine"
+        },
+        {
+            "dialLink" : "https://sweetalert.js.org/",
+            "dialName" : "Sweet Alert",
+            "category" : "dev",
+            "description" : "a dialogue library for action confirmation"
+        },
+                
+    {
+        "dialName": "floating ui",
+        "dialLink": "https://floating-ui.com/",
+        "category": "dev",
+        "description": "a js library for custome elements"
+    },
+    {
+        "dialName": "Tippy Js",
+        "dialLink": "https://atomiks.github.io/tippyjs/",
+        "category": "dev",
+        "description": "custom elements js library"
+    },
+    {
+        "dialName": "Swiper js",
+        "dialLink": "https://swiperjs.com/",
+        "category": "dev",
+        "description": "a slideshow javascript library"
+    },
+    {
+        "dialName": "Roadmap Sh",
+        "dialLink": "https://roadmap.sh/",
+        "category": "education",
+        "description": "a roadmap for developers an aspiring programmers"
+    },
+    {
+        "dialName": "Free illustration",
+        "dialLink": "https://www.freeillustrations.club/",
+        "category": "design",
+        "description": "a collection of free illustrations"
+    },
+    {
+        "dialName": "Svg Doodle",
+        "dialLink": "https://svgicon.net/",
+        "category": "design",
+        "description": "svg doodle lines and shapes"
+    },
+    {
+        "dialName": "Logo System",
+        "dialLink": "https://logosystem.co/",
+        "category": "design",
+        "description": "logo placeholder libraries"
+    },
+    {
+        "dialName": "Trending Design",
+        "dialLink": "https://trending.design/",
+        "category": "design",
+        "description": "design inspiration website"
+    },
+    {
+        "dialName": "Logo Ipsum",
+        "dialLink": "https://logoipsum.com/",
+        "category": "logoipsum",
+        "description": "a bundle of logo placeholders"
+    },
+    {
+        "dialName": "Lottie Lab",
+        "dialLink": "https://www.lottielab.com/",
+        "category": "animation",
+        "description": "a website for creating lottie animations"
+    },
+    {
+        "dialName": "Haiku Animator",
+        "dialLink": "https://www.haikuanimator.com/",
+        "category": "animation",
+        "description": "a website for creating interavtive animations"
+    },
+    {
+        "dialName": "Rive App",
+        "dialLink": "https://rive.app/",
+        "category": "animation",
+        "description": "animation editor"
+    },
+    {
+        "dialName": "Moko App",
+        "dialLink": "https://moko-app.com/",
+        "category": "animation",
+        "description": "animate interactions"
+    },
+    {
+        "dialName": "HandyArrows",
+        "dialLink": "https://handyarrows.com/",
+        "category": "design",
+        "description": "svg arrows"
+    },
+    {
+        "dialName": "Squibble",
+        "dialLink": "https://svghub.vercel.app/",
+        "category": "dev",
+        "description": "animated svgs"
+    },
+    {
+        "dialName": "Neat Fire CMs",
+        "dialLink": "https://neat.firecms.co/",
+        "category": "design",
+        "description": "animated noisy gradients bgs"
+    },
+    {
+        "dialName": "Stock img",
+        "dialLink": "https://stockimg.ai/",
+        "category": "design",
+        "description": "generate avatars"
+    },
+    {
+        "dialName": "shapefest",
+        "dialLink": "https://shapefest.com/",
+        "category": "design",
+        "description": "a collection of 3d illustrations"
+    },
+    {
+        "dialName": "Ui8",
+        "dialLink": "https://ui8.net/",
+        "category": "design",
+        "description": "a collection of free illustrations"
+    },
+    {
+        "dialName": "Dimensions",
+        "dialLink": "https://www.dimensions.com/",
+        "category": "design",
+        "description": "a collection of drawn dimensions"
+    },
+    {
+        "dialName": "Shapes",
+        "dialLink": "https://shapes.framer.website/",
+        "category": "design",
+        "description": "a collection of free shapes"
+    },
+    {
+        "dialName": "Patternclub",
+        "dialLink": "https://patternclub.io/",
+        "category": "design",
+        "description": "a library of free patterns"
+    },
+    {
+        "dialName": "Huemint",
+        "dialLink": "https://huemint.com/",
+        "category": "design",
+        "description": "a color palette generator"
+    },
+    {
+        "dialName": "Fake clients",
+        "dialLink": "https://fakeclients.com/",
+        "category": "design",
+        "description": "generate design briefs"
+    },
+    {
+        "dialName": "Cofolios",
+        "dialLink": "https://www.cofolios.com/",
+        "category": "design",
+        "description": "intern portfolio inspirations"
+    },
+    {
+        "dialName": "Behance",
+        "dialLink": "https://www.behance.net/",
+        "category": "design",
+        "description": "design inspiration website"
+    },
+    {
+        "dialName": "Good Brief",
+        "dialLink": "https://goodbrief.io/",
+        "category": "design",
+        "description": "design brief generator"
+    },
+    {
+        "dialName": "Ui Tips",
+        "dialLink": "https://www.uidesign.tips/",
+        "category": "dev",
+        "description": "design better uis"
+    },
+    {
+        "dialName": "Ui Verse",
+        "dialLink": "https://uiverse.io/inputs",
+        "category": "dev",
+        "description": "custom built components"
+    },
+    {
+        "dialName": "Web interactions",
+        "dialLink": "https://www.webinteractions.gallery/",
+        "category": "design",
+        "description": "web interactions designs"
+    },
+    {
+        "dialName": "3d Websites",
+        "dialLink": "https://3dwebsites.design/",
+        "category": "design",
+        "description": "3d websites inspirations"
+    },
+    {
+        "dialName": "Todays Design",
+        "dialLink": "https://todays.design/",
+        "category": "design",
+        "description": "design daily inspirations"
+    },
+    {
+        "dialName": "Mille Feuille Mockup",
+        "dialLink": "https://millefeuillemockup.com/",
+        "category": "design",
+        "description": "free mockup collections"
+    },
+    {
+        "dialName": "Formatmockups",
+        "dialLink": "https://www.formatmockups.com/",
+        "category": "design",
+        "description": "free mockup collections"
+    },
+    {
+        "dialName": "modern font stacks",
+        "dialLink": "https://modernfontstacks.com/",
+        "category": "font",
+        "description": "font pairings"
+    },
+    {
+        "dialName": "typeverything",
+        "dialLink": "https://typeverything.com/",
+        "category": "font",
+        "description": "a collection of free fonts"
+    },
+    {
+        "dialName": "Ultima",
+        "dialLink": "https://ultima.storytale.io/",
+        "category": "gfx",
+        "description": "illustration bundles"
+    },
+    {
+        "dialName": "Logggos Club",
+        "dialLink": "https://www.logggos.club/",
+        "category": "gfx",
+        "description": "Logo inspiration"
+    },
+    {
+    "dialName": "FFFUEL",
+    "dialLink": "https://www.fffuel.co/",
+    "category": "gfx",
+    "description": "graphics resources website"
+},
+{
+    "dialName": "hugeicons",
+    "dialLink": "https://hugeicons.com",
+    "category": "icons",
+    "description": "icon library"
+},
+{
+    "dialName": "swiperjs",
+    "dialLink": "https://swiperjs.com/demos",
+    "category": "dev",
+    "description": "JS library for sliders"
+},
+{
+    "dialName": "Google",
+    "dialLink": "https://www.google.com",
+    "category": "search",
+    "description": "search engine"
+},
+{
+    "dialName": "github",
+    "dialLink": "https://github.com/flackr/scroll-timeline",
+    "category": "dev",
+    "description": "GitHub repository for Scroll Timeline"
+},
+{
+    "dialName": "Learn React",
+    "dialLink": "https://scrimba.com/learn-react-c0e",
+    "category": "education",
+    "description": "online React course"
+},
+{
+    "dialName": "motiff",
+    "dialLink": "https://motiff.com/recent",
+    "category": "design",
+    "description": "design inspiration website"
+},
+{
+    "dialName": "Google LLM",
+    "dialLink": "https://notebooklm.google.com/notebook/f7607d7a-584c-4f35-96fc-f6815c573a6c",
+    "category": "ai",
+    "description": "Google's AI notebook"
+},
+{
+    "dialName": "tailwindgenie",
+    "dialLink": "https://tailwindgenie.com/",
+    "category": "design",
+    "description": "Tailwind CSS tool"
+},
+{
+    "dialName": "Yts",
+    "dialLink": "https://yts.mx/",
+    "category": "entertainment",
+    "description": "movie torrents"
+},
+{
+    "dialName": "1337x",
+    "dialLink": "https://1337x.to/",
+    "category": "entertainment",
+    "description": "torrent website"
+},
+{
+    "dialName": "appwrite",
+    "dialLink": "https://appwrite.io/",
+    "category": "dev",
+    "description": "backend server for web and mobile apps"
+},
+{
+    "dialName": "OTR learning",
+    "dialLink": "https://otr.kineoplatforms.net/login/index.php",
+    "category": "education",
+    "description": "online learning platform"
+},
+{
+    "dialName": "docs",
+    "dialLink": "https://docs.manim.community/en/stable/examples.html#animations",
+    "category": "dev",
+    "description": "documentation for Manim animations"
+},
+{
+    "dialName": "mobbin",
+    "dialLink": "https://mobbin.com/browse/web/apps",
+    "category": "design",
+    "description": "design patterns for mobile apps"
+},
+{
+    "dialName": "css-doodle",
+    "dialLink": "https://css-doodle.com/",
+    "category": "dev",
+    "description": "CSS pattern generator"
+},
+{
+    "dialName": "figma components",
+    "dialLink": "https://www.figcomponents.com/components/website",
+    "category": "design",
+    "description": "Figma component library"
+},
+{
+    "dialName": "Tailwind Playground",
+    "dialLink": "https://play.tailwindcss.com/",
+    "category": "dev",
+    "description": "Tailwind CSS experimentation tool"
+},
+{
+    "dialName": "Google fonts",
+    "dialLink": "https://fonts.google.com/icons",
+    "category": "font",
+    "description": "free font library from Google"
+},
+{
+    "dialName": "Edpass Apps Tsc",
+    "dialLink": "https://portal.edpass.sa.edu.au/app/UserHome",
+    "category": "education",
+    "description": "educational portal"
+},
+{
+    "dialName": "coverr",
+    "dialLink": "https://coverr.co/",
+    "category": "media",
+    "description": "free stock video library"
+},
+{
+    "dialName": "Miro App",
+    "dialLink": "https://miro.com/",
+    "category": "collaboration",
+    "description": "online collaborative whiteboard"
+},
+{
+    "dialName": "react-svgr",
+    "dialLink": "https://react-svgr.com/",
+    "category": "dev",
+    "description": "SVG to React component converter"
+},
+{
+    "dialName": "feathericons",
+    "dialLink": "https://feathericons.com/?query=l",
+    "category": "icons",
+    "description": "open source icon set"
+},
+{
+    "dialName": "Chakra Ui",
+    "dialLink": "https://v2.chakra-ui.com/",
+    "category": "dev",
+    "description": "React component library"
+},
+{
+    "dialName": "mail",
+    "dialLink": "https://mail.google.com/mail/u/0/#inbox",
+    "category": "communication",
+    "description": "Google email service"
+},
+{
+    "dialName": "coolbackgrounds",
+    "dialLink": "https://coolbackgrounds.io/red-background/",
+    "category": "design",
+    "description": "background generator"
+},
+{
+    "dialName": "pattern",
+    "dialLink": "https://pattern.monster/",
+    "category": "design",
+    "description": "pattern design tool"
+},
+{
+    "dialName": "3dwebsites",
+    "dialLink": "https://3dwebsites.design/",
+    "category": "design",
+    "description": "3D website inspiration"
+},
+{
+    "dialName": "fffuel",
+    "dialLink": "https://www.fffuel.co/",
+    "category": "gfx",
+    "description": "graphics resources website"
+},
+{
+    "dialName": "figma",
+    "dialLink": "https://www.figma.com/community/file/1259103428194969604",
+    "category": "design",
+    "description": "UI design tool"
+},
+{
+    "dialName": "react",
+    "dialLink": "https://react.dev/",
+    "category": "dev",
+    "description": "JavaScript library for building user interfaces"
+},
+{
+    "dialName": "colorhunt",
+    "dialLink": "https://colorhunt.co/",
+    "category": "design",
+    "description": "color palette inspiration"
+},
+{
+    "dialName": "aiforwork",
+    "dialLink": "https://www.aiforwork.co/",
+    "category": "ai",
+    "description": "AI tools for work"
+},
+{
+    "dialName": "Pinterest",
+    "dialLink": "https://au.pinterest.com/",
+    "category": "media",
+    "description": "image sharing social media"
+},
+{
+    "dialName": "Stack Overflow",
+    "dialLink": "https://www.stackoverflow.com",
+    "category": "dev",
+    "description": "programming Q&A community"
+},
+{
+    "dialName": "instagram",
+    "dialLink": "https://www.instagram.com/knigh_.t/saved/resources/17881360014081618/",
+    "category": "social media",
+    "description": "photo and video sharing platform"
+},
+{
+    "dialName": "youlearn ai",
+    "dialLink": "https://app.youlearn.ai/",
+    "category": "ai",
+    "description": "AI learning platform"
+},
+{
+    "dialName": "ui",
+    "dialLink": "https://ui.aceternity.com/",
+    "category": "dev",
+    "description": "user interface library"
+},
+{
+    "dialName": "openui",
+    "dialLink": "https://openui.fly.dev/ai/kZ5oBXMTvAKGziqbgJZDb",
+    "category": "ai",
+    "description": "AI interface tool"
+},
+{
+    "dialName": "uidesigndaily",
+    "dialLink": "https://www.uidesigndaily.com/",
+    "category": "design",
+    "description": "daily UI design inspiration"
+},
+{
+    "dialName": "excalidraw",
+    "dialLink": "https://excalidraw.com/",
+    "category": "design",
+    "description": "virtual whiteboard for sketching"
+},
+{
+    "dialName": "Css Shadows",
+    "dialLink": "https://getcssscan.com/css-box-shadow-examples",
+    "category": "dev",
+    "description": "CSS shadow examples"
+},
+{
+    "dialName": "tinywow",
+    "dialLink": "https://tinywow.com/",
+    "category": "tools",
+    "description": "online utility tools"
+},
+{
+    "dialName": "magicui design",
+    "dialLink": "https://magicui.design/",
+    "category": "design",
+    "description": "UI design inspiration"
+},
+{
+    "dialName": "uiverse",
+    "dialLink": "https://uiverse.io/inputs",
+    "category": "dev",
+    "description": "custom built components"
+},
+{
+    "dialName": "logodiffusion",
+    "dialLink": "https://logodiffusion.com/",
+    "category": "design",
+    "description": "logo design inspiration"
+},
+{
+    "dialName": "designspells",
+    "dialLink": "https://www.designspells.com/",
+    "category": "design",
+    "description": "design resources and tools"
+},
+{
+    "dialName": "atroposjs",
+    "dialLink": "https://atroposjs.com/",
+    "category": "dev",
+    "description": "JavaScript library for interactive visual effects"
+},
+{
+    "dialName": "Youtube",
+    "dialLink": "https://www.youtube.com",
+    "category": "media",
+    "description": "video sharing platform"
+}
+
+
+       
+    ]
+}
+
+   
+
+
+
+  

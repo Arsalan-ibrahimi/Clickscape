@@ -1,0 +1,690 @@
+body,html
+{
+    width: 100dvw !important;
+    height: auto!important;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-family: myFirstFont;
+    /* padding-top: 5% !important; */
+    /* position: relative; */
+   
+}
+
+.container
+{
+    padding-top: 5% !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.library-cta
+{
+  /* width: 100%; */
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.library-tab-content
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+  padding-bottom: 1rem;
+  overflow: scroll;
+  padding: 1rem;
+}
+
+#library-add-dial-btn
+{
+  background-color: #0037FF;
+  border: 0.5px solid grey;
+    border-radius: 2px;
+
+    color: white;
+}
+
+
+.library-header-modal{
+  height: 3dvh;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 0.5px solid rgb(245, 243, 243);
+  background-color: rgb(255, 255, 255);
+  padding: 10px 1rem;
+  
+  z-index: 100;
+}
+.library-tab-content-wrap
+{
+  display: flex;
+  gap: 5px;
+  height: 95%;
+
+}
+
+.showcases 
+{
+  top: 60px;
+    right: 0px;
+    position: sticky;
+    height: 80dvh;
+    width: 30%;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: white;
+}
+
+
+.header > img 
+{
+    width: 15%;
+    border-radius: 5px;
+
+}
+.innerElements
+{   
+    display: flex;
+    width: 80% !important;
+    padding: 0 !important;
+    /* margin-top: 5% !important; */
+    /* justify-content: center ! important; */
+}
+
+.modal-content
+{
+    height: fit-content!important;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.modal-body
+{
+  gap: 15%;
+}
+/* .auto-fetch-wrap
+{
+    position: sticky;
+    bottom: 5%;
+    right: 5%;
+} */
+
+.header
+{
+    /* width: 100%; */
+  
+    /* height: fit-content; */
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: start;
+    border-radius: 5px;
+    width: auto;
+    padding: 1rem;
+    color: white;
+   /* background-color: #f3f6f885; */
+   /* padding: 0 10%; */
+
+   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+   
+}
+.header-wrap
+{
+    width: 100%;
+    height: 20dvh;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1rem; */
+    background-image: url('../assets/images/logo/d3a399b724229a26e7dbfd9da7f77adc.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.dialId
+{
+  position: absolute;;
+}
+.dial
+{
+    width: auto;
+    min-width: 2.5dvw;
+    padding: 10px;
+    
+    height: auto;
+    box-shadow: 0 0 0 4px #f3f6f8;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    border: 1px solid white;
+
+}
+
+.tabs
+{
+    padding-top: 3% !important;
+    
+}
+
+.text-label
+{
+    text-transform: capitalize;
+}
+
+.delete-button-dial
+{
+    
+    z-index: 100;
+    border: 0px solid transparent;
+    
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    display: none;
+    /* From https://css.glass */
+  background: transparent;
+}
+
+.dial:hover .delete-button-dial
+{
+    display: flex;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+.delete-button-dial:hover svg>path
+{
+    fill:#254ee5 !important;
+}
+
+.empty-tabs
+{
+  
+  width: 100%;
+  height: fit-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  /* background-image: url("../assets/images/logo/empty.svg") !important; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+ 
+ 
+}
+
+.empty-tabs img
+{
+    width: 30% !important;
+}
+
+.buttonAddMore
+{
+border-radius: 10px;
+width: 60px;
+  box-shadow: 0 0 0 4px #0037ff7e;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #0037FF;
+    transition-duration: 400ms;
+    border: 1px solid white;
+
+}
+
+.buttonAddMore:hover
+{
+  background-color: #0037FF;
+}
+
+
+
+
+
+.button {
+    margin-top: 1rem;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0px 15px;
+    background-color: rgb(80, 58, 243);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+  }
+  
+  .library {   
+    
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+    padding-bottom: 1rem;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 10;
+    width: 90dvw;
+    height: 90dvh;
+    background: white;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    border-radius: 10px;
+    /* padding: 1rem; */
+    overflow: scroll;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+
+  }
+  .library-header-modal > .controls
+  {
+    position: sticky !important;
+    right: 5px;
+    top: 5px;
+    margin-left: auto !important;
+  
+  }
+
+  .controls-active
+  {
+    display: none !important;
+  }
+
+  .controls > button
+  {
+ 
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    background-color: rgb(240, 68, 105);
+    color: white;
+   
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .controls > button:hover
+  {
+    background-color: rgb(228, 84, 116);
+    color: white;
+    transition: 200ms ease-in-out;
+  }
+
+.library-logo
+{
+  
+    width: 2.4dvw;
+   
+    
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.lib-cta
+{
+  background: white;
+  border: 1px solid rgb(40, 40, 40);
+  padding: 5px;
+  color: rgb(38, 38, 38);
+  border-radius: 3px;
+}
+
+.lib-cta:hover
+{
+ color: grey !important;
+ background-color: white !important;
+  transition: 200ms ease-in-out;
+}
+
+.library-logo+span
+{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+  .library-header
+  {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   
+  }
+
+  .library-header:before, .library-header:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid lightgrey;
+    margin: auto;
+  }
+  .library-header:before {
+    margin-right: 10px
+  }
+  .library-header:after {
+    margin-left: 10px
+  }
+
+
+  .library-header svg {
+    background-color: #0037FF;
+    color: #c4cbe5;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .fade-out
+  {
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+  
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .dial-description
+  {
+ 
+    font-size: 10px;
+    color: grey;
+  }
+
+  .dial-favi
+  {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
+  .dial-list-item
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: rgb(255, 255, 255);
+}
+
+.dial-description 
+{
+    margin-left: auto;
+   
+}
+
+.dial-badge
+{
+  background: rgb(245, 245, 245);
+    padding: 2px;
+    border-radius: 2px;
+  text-transform: capitalize;
+  }
+
+  .add-dial-btn
+  {
+    padding: 5px;
+    margin: 0px;
+    background: rgb(231, 231, 231);
+    color: rgb(66, 66, 66);
+    border-radius: 5px;
+    border: none;
+  }
+  .add-dial-btn:hover
+  {
+    background: rgb(71, 70, 71);
+    color: white;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+  }
+
+
+
+ .cta-div
+  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .bell {
+    width: 13px;
+  }
+  
+  .bell path {
+    fill: rgb(0, 206, 62);
+  }
+  
+  .arrow {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+  }
+  
+  .button:hover {
+    background-color: rgb(53, 48, 189);
+    transition-duration: .2s;
+  }
+  
+  .button:hover .arrow {
+    animation: slide-right .6s ease-out both;
+  }
+  /* arrow animation */
+  @keyframes slide-right {
+    0% {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .button:active {
+    transform: translate(1px , 1px);
+    transition-duration: .2s;
+  }
+  
+
+
+
+
+
+  /** showcase **/
+  .custom-slider {
+    position: relative;
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    /* padding: 1rem; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centering the slider */
+  }
+  
+  .custom-slider-wrapper {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .custom-slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .custom-slider-btn {
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+
+    cursor: pointer;
+    font-size: 12px;
+
+  }
+  
+  .custom-slider-prev {
+    left: 10px;
+  }
+  
+  .custom-slider-next {
+    right: 10px;
+  }
+  
+  .custom-slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+
+
+
+  .tab-suggestions div 
+  {
+    /* border : 1px solid rgb(216, 216, 216); */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+
+  .tab-suggestions div img 
+  {
+    width: 60%;
+    height: 100%;
+    
+  }
+
+  .tab-suggestions 
+  {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+  }
+
+
+
+  .allBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  
+  
+  .allBtn:hover {
+    background-color: #0037fff8;
+    color: white;
+  }
+
+
+  .modal-title
+  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .modal-title span 
+  {
+    /* background-color: rgb(86, 35, 237); */
+    padding: 3px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .modal-text
+  {
+    font-weight: 400;
+    font-size : 15px;
+    padding:  10px 10px;
+    
+  }
+
+
+  .bucket-list
+  {
+  
+    margin: 8px 3px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  
+    height: 50%;
+    padding: 5px;
+   overflow: scroll;
+  }
+
+  .dial-favi-2
+  {
+    width: 20px;
+  }
+
+ 
+
+

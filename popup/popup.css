@@ -1,0 +1,651 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+body,html
+{
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-family: myFirstFont;
+    overflow-y: auto;
+}
+
+.container
+{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    background: none !important;
+}
+
+.innerElements
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: white;
+   border-radius: 10px;
+   /* overflow-y: scroll; */
+  height: 100%;
+   position: relative;
+   padding: 0.8rem;
+   /* padding-right: 1rem; */
+   -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
+.tabs
+{
+    display: flex;
+
+    flex-wrap: wrap;
+  justify-content: center;
+    gap: 10px;
+  
+    padding-bottom: 1rem;
+    
+}
+
+
+.edit-button-dial
+{
+  z-index: 9;
+  position: absolute;
+  
+  bottom: 0;
+}
+.text-center
+{
+    text-align: center;
+}
+
+.dial
+{
+    width: 25%;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 0 0 0 4px #f3f6f8;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    border: 1px solid white;
+}
+
+.dial:hover
+{
+    border: 1px solid #254ee5;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #244bd6;
+}   
+
+.dial:hover img
+{
+  transform: translateY(-3px);
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.dial img
+{
+
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #3C3D37;
+    position: relative;
+}
+
+
+
+.settings >  svg:hover
+{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 10, 0.16) 0px 1px 10px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+
+.settings + .controls-active
+{
+    
+    z-index: 10;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 4px; */
+    animation: animateSettings 1s ease-in-out;
+    height: fit-content;
+    
+    margin-top: 5px;
+
+}
+
+.controls
+{
+    
+    display: flex;
+    /* z-index: ; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+  /* padding: 1rem; */
+  border-radius: 5px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* width: 70%; */
+  /* height: 120px; */
+  z-index: 10;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.input-fields
+{
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+  
+}
+
+#saveJson
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  /* background: white; */
+  box-shadow: 0 0 0 2px #f3f6f8;
+  /* border-radius: 50%; */
+  /* height: 30px;
+  width: 30px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+
+}
+
+.input-fields input
+{
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+.input-fields input::placeholder
+{
+    color: grey;
+    
+}
+
+
+
+
+
+
+@keyframes animateSettings 
+{
+    from 
+    {
+        opacity: 0;
+        height: 0%;
+    }
+    to
+    {
+        opacity: 1;
+        height: 100%;
+    }
+
+}
+
+
+.ghost-class
+{
+    opacity: 0.3;
+    background-color: rgb(132, 114, 225);
+}
+
+
+
+
+
+.btn-save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background: white;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+
+.btn-save:hover {
+  background-color: #0037fff8;
+
+}
+
+.btn-save:hover svg 
+{
+    fill: white;
+    transition: 200ms ease-in-out;
+}
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.icon-path {
+  fill: #333;
+  transition: fill 0.3s ease;
+}
+
+.btn-save:hover .icon-path {
+  fill: #888;
+}
+
+
+
+
+
+.icon-current
+{
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  background-color: brown;
+}
+
+.info-helper-wrap > div
+{
+  display: flex;
+  gap: 3px;
+
+}
+
+.custom-add-btn
+{
+  border: 1px solid #714aff;
+  background: white;
+  color: #714aff;
+  border-radius: 5px;
+}
+.custom-add-btn:hover 
+{
+  background: #714aff;
+  color: white;
+  transition: .2s ease-in-out;
+}
+
+  
+ 
+  
+  .acceptButton:hover {
+    background-color: #714aff;
+    transition-duration: .2s;
+  }
+
+  
+
+  .footer
+  {
+      text-align: center;
+      position: sticky;
+      bottom: 0px;
+      background-color: #714aff;
+      color: white;
+  }
+
+
+
+  .auto-fetch-btn
+  {
+    border: none;
+
+    background:  #714aff;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    position: relative;
+
+  }
+
+  .auto-fetch-wrap
+  {
+    padding: 5px;
+  }
+
+  /**
+ * The Modal (background)
+
+ /* The Modal (background) */
+.modal {
+
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 11; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ 
+}
+
+/* Modal Content */
+.modal-content {
+  height: 60dvh;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+    /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+}
+
+/* The Close Button */
+.close {
+  color: rgb(49, 49, 49);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-label 
+{
+  -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
+.modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 2px 16px;
+  background-color: white;
+  color: rgb(33, 33, 33);
+}
+
+.modal-body {padding: 2px 16px;
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 10px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: rgb(32, 32, 32);
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+.empty-tabs
+{
+  
+  width: 100dvw;
+  height: 80dvh;
+  /* background-image: url("../assets/images/logo/empty.svg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+ 
+ 
+}
+
+
+
+
+/** Modal Ends */
+
+
+
+
+/**
+add button animation
+
+*/
+
+.auto-fetch-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #714aff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  overflow: hidden;
+}
+.auto-fetch-btn:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #54d98c;
+}
+.auto-fetch-btn span {
+  position: absolute;
+  line-height: 0;
+}
+.auto-fetch-btn span i {
+  transform-origin: center center;
+}
+.auto-fetch-btn span:nth-of-type(1) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.auto-fetch-btn span:nth-of-type(2) {
+  top: 100%;
+  transform: translateY(0%);
+
+}
+.auto-fetch-btn span:nth-of-type(3) {
+  display: none;
+}
+
+.auto-fetch-btn:hover
+{
+  cursor: pointer;
+ filter: lighten(0.5);
+}
+
+.completed
+{
+  color: black;
+  font-size: 12px !important;
+  font-family: myFirstFont;
+}
+
+.custom-add-btn:hover
+{
+  cursor: pointer;
+  
+}
+
+.loading > svg 
+{
+  animation: rotate 1s linear infinite;
+}
+
+.active {
+  background-color: #2ecc71;
+}
+.active:before {
+  width: 100%;
+  transition: width 1s linear;
+}
+.active span:nth-of-type(1) {
+  top: -100%;
+  transform: translateY(-50%);
+}
+.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.active span:nth-of-type(2) i {
+  animation: loading 500ms linear infinite;
+}
+.active span:nth-of-type(3) {
+  display: none;
+}
+
+.finished {
+  background-color: #54d98c;
+}
+.finished .submit {
+  display: none;
+}
+.finished .loading {
+  display: none;
+}
+.finished .completed {
+  display: block !important;
+  font-size: 18px;
+  animation: slideUp 100ms ease-in-out;
+}
+
+/* SlideUp animation */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+/**
+add auto-fetch-btn animation ends
+*/
+
+
+
+/* .tab-suggestions
+{
+  border-left: 1px solid lightgrey;
+  padding-left: 10px;
+  background: black;
+  
+} */
+
+
+.dial-favi-2
+{
+  width: 15px;
+}
