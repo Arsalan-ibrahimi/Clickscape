@@ -649,3 +649,34 @@ add auto-fetch-btn animation ends
 {
   width: 15px;
 }
+
+
+
+.delete-button-dial
+{
+    
+    z-index: 100;
+    border: 0px solid transparent;
+    
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    display: none;
+    /* From https://css.glass */
+  background: transparent;
+}
+
+.dial:hover .delete-button-dial
+{
+    display: flex;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+.delete-button-dial:hover svg>path
+{
+    fill:#254ee5 !important;
+}
+
+
+

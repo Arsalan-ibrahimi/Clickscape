@@ -1,3 +1,5 @@
+
+
 function populateLibrary() {
   let data;
   fetch("https://raw.githubusercontent.com/Arsalan-ibrahimi/data_api/main/library.json")
@@ -6,7 +8,7 @@ function populateLibrary() {
       data = json.library;
       dataLocal = [];
 
-      console.log(data);
+      // console.log(data);
 
       Object.keys(localStorage).forEach((key) => {
         if (key != 'ORDER') {

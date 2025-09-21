@@ -46,11 +46,21 @@ body,html
 
 #library-add-dial-btn
 {
-  background-color: #0037FF;
-  border: 0.5px solid grey;
+  /* background-color: #a8aec4; */
+  border: 0.5px solid rgb(199, 191, 191);
     border-radius: 2px;
 
-    color: white;
+    color: black;
+}
+
+#library-add-dial-btn:hover
+{
+  background-color: #5776e6;
+  border: 0.5px solid rgb(102, 121, 226);
+    border-radius: 2px;
+cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition-duration: 200ms;
 }
 
 
@@ -148,13 +158,13 @@ body,html
     height: 20dvh;
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem; 
     background-image: url('../assets/images/logo/d3a399b724229a26e7dbfd9da7f77adc.jpg');
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 5px; 
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; 
 }
 .dialId
 {
@@ -194,31 +204,7 @@ body,html
     text-transform: capitalize;
 }
 
-.delete-button-dial
-{
-    
-    z-index: 100;
-    border: 0px solid transparent;
-    
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    display: none;
-    /* From https://css.glass */
-  background: transparent;
-}
 
-.dial:hover .delete-button-dial
-{
-    display: flex;
-    position: absolute;
-    top: 1px;
-    right: 0px;
-}
-.delete-button-dial:hover svg>path
-{
-    fill:#254ee5 !important;
-}
 
 .empty-tabs
 {
@@ -686,5 +672,9 @@ width: 60px;
   }
 
  
-
-
+.btn-delete:hover
+{
+  background: rgb(214, 88, 88);
+  color: white;
+  transition-duration: 200ms;
+}
